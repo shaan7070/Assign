@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #e2e8f0;
+            background-color: #0f172a;
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            background-color:#1e293b ;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #334155 ;
+        }
+        h2 ,h3 {
+            margin-top: 2rem;
+            color: #a5b4fc;
+        }
+        table{
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 1rem;
+            overflow: hidden;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+        th{
+            background-color: #6366f1 ;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 0.8rem;
+            color: #ffffff;
+        }
+        th,td{
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #334155 ;
+        }
+        tr:last-child td{
+            border-bottom: none;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section id="Pricing">
+    <h2>API Pricing</h2>
+    <p>
+        "Our API pricing is based on the model used and the number of tokens processed. Here's a breakdown of the costs:"
+    </p>
+    <table>
+    <thead>
+        <tr>
+            <th>API</th>
+            <th>Model</th>
+            <th>Price per 1k Tokens</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Open AI</td>
+            <td>GPT-3.5</td>
+            <td>$0.002</td>
+        </tr>
+        <tr>
+            <td>Open AI</td>
+            <td>GPT-4</td>
+            <td>$0.003</td>
+        </tr>
+        <tr>
+            <td>Together AI</td>
+            <td>Llama-2-70b</td>
+            <td>$0.0008</td>
+        </tr>
+        <tr>
+            <td>Together AI</td>
+            <td>Llama-2-13b</td>
+            <td>$0.0006</td>
+        </tr>
+    </tbody>
+    </table>
+    <h3>Token Estimation</h3>
+    <p>
+        "On average, 1 token is approximately 4 characters or 0.75 words. For precise pricing, we recommend using our token calculator tool."
+    </p>
+    <h3>Billing</h3>
+    <p>
+        "You will only be charged for the tokens used in generating the book.
+         The API tracks token usage and bills accordingly. Detailed usage
+         reports are available in your account dashboard."
+    </p>
+</section>
+
+</body>
+</html>
